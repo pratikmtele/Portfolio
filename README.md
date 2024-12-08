@@ -9,3 +9,5 @@ Welcome to my GitHub portfolio! I am a passionate Full Stack Web Developer with 
 - Food Ordering Application: A fully functional food ordering app built using the MERN stack, showcasing my front-end and back-end skills.
 - Other Web Development Projects: Check out various projects demonstrating my skills in HTML, CSS, JavaScript, and more.
 - Feel free to explore my repositories, and don't hesitate to reach out if you'd like to collaborate or discuss potential opportunities!
+
+("https://pratikteleportfolio.netlify.app")(Live Link)

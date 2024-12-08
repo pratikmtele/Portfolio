@@ -35,7 +35,7 @@ function Education() {
             </div>
             <div className="bg-gray-white py-2 px-5 text-center h-[137px]">
               <h2 className="gradient-color text-transparent inline-block font-bold">
-                Dec 2022– April 2024
+                Sep 2019– Aug 2022
               </h2>
               <div className="text-left flex items-center gap-4 text-md mt-5">
                 <img src={DegreeCap} className="w-[30px]" />
