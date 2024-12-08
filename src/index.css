@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.gradient-color {
+  background: linear-gradient(to right, #002fff, #ff0099);
+  background-clip: text;
+}
+
+.gradient-btn {
+  background: linear-gradient(to right, #002fff, #ff0099);
+}
