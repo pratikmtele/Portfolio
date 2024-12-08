@@ -20,7 +20,7 @@ import Appwrite from "./appwrite.svg";
 
 // images
 import FoodApplication from "./foodorderingapp.png";
-import EducationImage from "./studying-image.svg";
+import EducationImage from "./Studying-image.svg";
 import DegreeCap from "./degreecap.png";
 import MongoCert from "./mongoCert.png";
 import RightArrow from "./right-arrow.png";
