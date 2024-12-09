@@ -2,7 +2,7 @@ import React from "react";
 
 function TextArea({ value, onChange, name, id, label, type }) {
   return (
-    <div className=" relative group mt-5">
+    <div className=" relative group sm:mt-5">
       <label
         htmlFor={id}
         className={`absolute text-gray ${

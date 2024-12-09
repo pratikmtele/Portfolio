@@ -26,7 +26,7 @@ const Navbar = () => {
           onClick={onClickHandle}
         />
         <ul
-          className={`block absolute h-[290px] top-20 left-0 ${
+          className={`block absolute h-[270px] z-50 top-20 left-0 ${
             isNavbarOpen ? "translate-x-0" : "-translate-x-[500px]"
           } sm:translate-x-0 text-center bg-gray-white sm:bg-white w-full sm:h-auto sm:static sm:w-fit sm:gap-6 sm:flex transition-all ease-in-out duration-500`}
           onClick={onClickHandle}

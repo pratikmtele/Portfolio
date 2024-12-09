@@ -11,7 +11,7 @@ function Input({
   labelClass = "",
 }) {
   return (
-    <div className=" relative group">
+    <div className="relative group">
       <label
         htmlFor={id}
         className={`absolute text-gray ${
@@ -29,7 +29,7 @@ function Input({
         value={value}
         onChange={onChange}
         name={name}
-        className={`border border-light-gray w-[283px] h-[38px] pl-2 rounded-md text-sm ${className}`}
+        className={`border border-light-gray w-full mb-5 sm:mb-0 sm:w-[283px] h-[38px] pl-2 rounded-md text-sm ${className}`}
       />
     </div>
   );

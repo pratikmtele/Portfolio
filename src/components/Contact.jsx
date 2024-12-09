@@ -65,16 +65,18 @@ function Contact() {
   };
   return (
     <Container>
-      <section id="contact" className="mt-24">
-        <div className="mb-32 flex flex-col items-center">
-          <h1 className="text-2xl inline-block font-bold mb-2">Contact</h1>
-          <div className="h-[5px] gradient-btn w-[88px] rounded-md"></div>
+      <section id="contact" className="mt-14 sm:mt-24">
+        <div className="mb-14 sm:mb-32 flex flex-col items-center">
+          <h1 className="text-mxl sm:text-2xl inline-block font-bold mb-2">
+            Contact
+          </h1>
+          <div className="h-[5px] gradient-btn w-[73px] sm:w-[88px] rounded-md"></div>
         </div>
-        <div className="w-full flex justify-between">
-          <div className="w-1/2">
+        <div className="w-full sm:flex justify-between">
+          <div className="sm:w-1/2">
             <div className="flex items-center gap-5">
-              <img src={MailImage} className="w-[60px]" />
-              <h1 className="font-bold text-xl">Contact with me</h1>
+              <img src={MailImage} className="w-[50px] sm:w-[60px]" />
+              <h1 className="font-bold text-lg sm:text-xl">Contact with me</h1>
             </div>
             <div className="mt-8">
               <h2 className="font-bold text-md">Email</h2>
@@ -105,9 +107,9 @@ function Contact() {
             </div>
           </div>
           {/* Contact form here*/}
-          <div className="w-[588px]">
+          <div className="mt-10 sm:mt-0 sm:w-[588px]">
             <form onSubmit={onClick}>
-              <div className="flex gap-5">
+              <div className="sm:flex sm:gap-5">
                 <Input
                   type="text"
                   label="First Name"
@@ -132,8 +134,8 @@ function Contact() {
                 id="email"
                 value={data.email}
                 onChange={onChange}
-                labelClass="mt-5"
-                className="w-full mt-5"
+                labelClass="sm:mt-5"
+                className="w-full sm:mt-5"
               />
 
               <TextArea
@@ -145,7 +147,7 @@ function Contact() {
                 onChange={onChange}
               />
 
-              <button className="w-[178px] h-[43px] bg-gradient-to-r from-[#002fff] to-[#ff0099] rounded-md text-white font-semibold text-md mt-4 transition-all ease-in-out duration-300 hover:opacity-80">
+              <button className="w-[150px] sm:w-[178px] h-[43px] bg-gradient-to-r from-[#002fff] to-[#ff0099] rounded-md text-white font-semibold text-md mt-4 transition-all ease-in-out duration-300 hover:opacity-80">
                 {loading ? (
                   <img
                     src={LoadingImage}

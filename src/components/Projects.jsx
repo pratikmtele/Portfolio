@@ -30,12 +30,14 @@ function Projects() {
   return (
     <div>
       <Container>
-        <section id="projects" className="mt-20">
-          <div className="mb-20 flex flex-col items-center">
-            <h1 className="text-2xl inline-block font-bold mb-2">Projects</h1>
-            <div className="h-[5px] gradient-btn w-[88px] rounded-md"></div>
+        <section id="projects" className="mt-14 sm:mt-20">
+          <div className="mb-14 sm:mb-20 flex flex-col items-center">
+            <h1 className="text-mxl inline-block font-bold mb-2 sm:text-2xl">
+              Projects
+            </h1>
+            <div className="h-[5px] gradient-btn w-[73px] sm:w-[88px] rounded-md"></div>
           </div>
-          <div className="grid grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 gap-2 sm:grid-cols-3 sm:gap-10">
             {projects.map((project) => (
               <Project
                 key={project.title}

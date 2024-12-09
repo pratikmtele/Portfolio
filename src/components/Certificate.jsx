@@ -1,16 +1,16 @@
 import React from "react";
-import { MongoCert, RightArrow } from "../assets/index.js";
+import { RightArrow } from "../assets/index.js";
 
 function Certificate({ certId, title, certLink, image }) {
   return (
-    <div className="border border-light-gray w-[588px] text-center h-[630px] bg-gray-white">
-      <img src={MongoCert} alt="MongoDB Developer path certificate" />
-      <h1 className="text-lg font-bold my-5 w-[390px] text-center m-auto">
+    <div className="border border-light-gray sm:w-[588px] text-center h-fit pb-5 sm:pb-0 sm:h-[630px] bg-gray-white">
+      <img src={image} alt={title} />
+      <h1 className="text-lg sm:text-lg font-bold my-5 sm:w-[390px] text-center m-auto">
         {title}
       </h1>
-      <p className="mb-5">CREDENTIAL ID: {certId}</p>
+      <p className="mb-5 text-sm sm:text-md">CREDENTIAL ID: {certId}</p>
       {certLink && (
-        <a href={certLink} className="group" target="_blank">
+        <a href={certLink} className="group text-sm sm:text-md" target="_blank">
           View Certificate
           <img
             src={RightArrow}

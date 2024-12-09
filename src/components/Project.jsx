@@ -12,13 +12,13 @@ function Project({
   techs,
 }) {
   return (
-    <div className="w-[385px] bg-white border border-light-gray h-fit">
+    <div className="sm:w-[385px] bg-white border border-light-gray h-fit rounded-md overflow-hidden">
       <img
         src={coverImage}
         alt="Project 1"
-        className="w-full h-[286px] object-cover"
+        className="w-full sm:h-[286px] object-cover"
       />
-      <h1 className="font-bold text-md ml-5 mt-4">{title}</h1>
+      <h1 className="font-bold text-lg ml-5 mt-4">{title}</h1>
       <div id="links" className="flex">
         {isCodeSourced && (
           <a
