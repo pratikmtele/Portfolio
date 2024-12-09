@@ -135,7 +135,7 @@ function Contact() {
                 value={data.email}
                 onChange={onChange}
                 labelClass="sm:mt-5"
-                className="w-full sm:mt-5"
+                className="sm:w-full sm:mt-5"
               />
 
               <TextArea
