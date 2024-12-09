@@ -14,6 +14,7 @@ export default {
         md: "16px",
         lg: "20px",
         xl: "24px",
+        mxl: "36px",
         "2xl": "48px",
         "3xl": "64px",
       },

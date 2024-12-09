@@ -28,8 +28,10 @@ import MailImage from "./mail.png";
 import Instagram from "./instagram.png";
 import GitHubSign from "./github-sign.png";
 import Linkedin from "./linkedin.png";
-
+import Image from "./image.png";
 import LoadingImage from "./loading.gif";
+import Menu from "./menu.png";
+import Close from "./close.png";
 
 // exporting project images
 export {
@@ -43,6 +45,9 @@ export {
   GitHubSign,
   Linkedin,
   LoadingImage,
+  Image,
+  Menu,
+  Close,
 };
 
 // exporting array of technologies and tools
@@ -67,3 +72,9 @@ export const Skills = [
   { name: "VS Code", value: VSCode },
   { name: "Netlify", value: Netlify },
 ];
+
+// importing resume file
+import Resume from "./Pratik_Tele_Resume.pdf";
+
+// exporting resume file
+export { Resume };
