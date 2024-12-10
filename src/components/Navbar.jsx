@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <Container>
       <header className="flex justify-between h-20 items-center sm:mt-6">
-        <h1 className="text-lg font-bold cursor-pointer sm:text-xl">
+        <h1 className="text-lg font-bold cursor-pointer md:text-xl">
           <em>{"< React"}</em>
           <span></span>
           <span className=" gradient-color text-transparent">
@@ -22,13 +22,13 @@ const Navbar = () => {
         <img
           src={isNavbarOpen ? Close : Menu}
           alt="Menu"
-          className="w-6 block sm:hidden cursor-pointer"
+          className="w-6 block  md:hidden cursor-pointer"
           onClick={onClickHandle}
         />
         <ul
-          className={`block absolute h-[270px] z-50 top-20 left-0 ${
-            isNavbarOpen ? "translate-x-0" : "-translate-x-[500px]"
-          } sm:translate-x-0 text-center bg-gray-white sm:bg-white w-full sm:h-auto sm:static sm:w-fit sm:gap-6 sm:flex transition-all ease-in-out duration-500`}
+          className={`block absolute h-[270px] z-50 top-20 left-0 w-full ${
+            isNavbarOpen ? "translate-x-0" : "-translate-x-[1000px]"
+          } md:translate-x-0 text-center bg-gray-white md:bg-white md:h-auto md:static md:w-fit md:gap-6 md:flex transition-all ease-in-out duration-500`}
           onClick={onClickHandle}
         >
           <li className="font-semibold text-md hover:text-gray mb-5 sm:mb-0 mt-5 sm:mt-0">

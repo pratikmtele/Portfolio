@@ -36,7 +36,7 @@ function About() {
             <h2 className="text-lg font-bold mb-5 sm:mb-8 sm:text-xl">
               Technologies and Tools
             </h2>
-            <div className="grid grid-cols-3 gap-2 sm:grid-cols-5 sm:gap-5">
+            <div className="grid grid-cols-3 gap-2 md:grid-cols-5 md:gap-x-1 lg:grid-cols-5 lg:gap-5">
               {Skills.map((skill) => (
                 <Skill key={skill.name} name={skill.name} icon={skill.value} />
               ))}
