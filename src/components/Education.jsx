@@ -1,4 +1,3 @@
-import React from "react";
 import { Container } from "./index.js";
 import { EducationImage, DegreeCap } from "../assets/index.js";
 
@@ -29,7 +28,7 @@ function Education() {
                 <img src={DegreeCap} className="w-[24px] sm:w-[30px]" />
                 <div>
                   <h1 className="font-bold">Master of Computer Application</h1>
-                  <p className="font-light text-sm sm:text-md">
+                  <p className="text-sm md:text-md">
                     Savitribai Phule Pune University, Pune, Maharashtra
                   </p>
                 </div>
@@ -45,7 +44,7 @@ function Education() {
                   <h1 className="font-bold mb-1">
                     Bachelor of Computer Application
                   </h1>
-                  <p className="font-light text-sm sm:text-md">
+                  <p className="text-sm sm:text-md">
                     Amravati University, Yavatmal, Maharashtra
                   </p>
                 </div>

@@ -11,7 +11,7 @@ function Home() {
           <h1 className="text-mxl md:text-2xl lg:text-3xl font-bold lg:-ml-1">
             Hii, I am Pratik
           </h1>
-          <h1 className="gradient-color text-mxl w-full h-[50px] font-bold text-transparent -mt-2 md:text-2xl lg:text-3xl lg:w-[620px] md:h-[65px] lg:h-[85px] md:-mt-3 lg:-ml-1">
+          <h1 className="gradient-color text-mxl w-full h-[50px] font-bold text-transparent -mt-2 md:text-2xl lg:text-[54px] lg:w-[620px] md:h-[65px] lg:h-[70px] md:-mt-3 lg:-ml-1">
             <Typewriter
               words={[
                 "Frontend Developer",
@@ -23,7 +23,7 @@ function Home() {
               typeSpeed={100}
             />
           </h1>
-          <p className="text-md leading-7 w-full mt-2 md:w-[450px] md:text-lg md:leading-8 lg:w-[590px] md:mt-4">
+          <p className="text-md leading-7 w-full md:w-[450px] md:text-lg md:leading-8 lg:w-[590px] md:mt-4">
             I am a passionate Frontend / Full stack developer based in Pimpri
             Chinchwad, India. I dive deep into JavaScript and love crafting
             sleek, efficient web apps.

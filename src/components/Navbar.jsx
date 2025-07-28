@@ -31,20 +31,20 @@ const Navbar = () => {
           } md:translate-x-0 text-center bg-gray-white md:bg-white md:h-auto md:static md:w-fit md:gap-6 md:flex transition-all ease-in-out duration-500`}
           onClick={onClickHandle}
         >
-          <li className="font-semibold text-md hover:text-gray mb-5 sm:mb-0 mt-5 sm:mt-0">
-            <a href="#about">About</a>
+          <li className="menu font-semibold text-md hover:text-gray mb-5 sm:mb-0 mt-5 sm:mt-0 relative overflow-hidden">
+            <a href="#about" className="menu-item">About</a>
           </li>
-          <li className=" font-semibold text-md hover:text-gray mb-5 sm:mb-0">
-            <a href="#projects">Projects</a>
+          <li className="font-semibold text-md hover:text-gray mb-5 sm:mb-0">
+            <a href="#projects" className="menu-item">Projects</a>
           </li>
-          <li className=" font-semibold text-md hover:text-gray mb-5 sm:mb-0">
-            <a href="#education">Education</a>
+          <li className="font-semibold text-md hover:text-gray mb-5 sm:mb-0">
+            <a href="#education" className="menu-item">Education</a>
           </li>
-          <li className=" font-semibold text-md hover:text-gray mb-5 sm:mb-0">
-            <a href="#certification">Certification</a>
+          <li className="font-semibold text-md hover:text-gray mb-5 sm:mb-0">
+            <a href="#certification" className="menu-item">Certification</a>
           </li>
-          <li className=" font-semibold text-md hover:text-gray mb-5 sm:mb-0">
-            <a href="#contact">Contact</a>
+          <li className="font-semibold text-md hover:text-gray mb-5 sm:mb-0">
+            <a href="#contact" className="menu-item">Contact</a>
           </li>
         </ul>
       </header>

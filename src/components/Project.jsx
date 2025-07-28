@@ -24,20 +24,20 @@ function Project({
           <a
             href={githubLink}
             target="_blank"
-            className="flex pl-2 w-[120px] h-[25px] items-center mt-4 ml-5 border border-light-gray text-sm cursor-pointer"
+            className="flex items-center px-2 max-w-36 h-[25px] mt-4 ml-5 border border-light-gray text-sm cursor-pointer"
           >
             <i class="fa-brands fa-github w-6"></i>
-            Code Source
+            <span className="text-[12px]">Code Source</span>
           </a>
         )}
         {isSiteLive && (
           <a
             href={siteLink}
             target="_blank"
-            className="flex items-center pl-2 w-[135px] h-[25px] mt-4 ml-5 border border-light-gray text-sm"
+            className="flex items-center px-2 max-w-36 h-[25px] mt-4 ml-5 border border-light-gray text-sm cursor-pointer"
           >
             <i class="fa-solid fa-arrow-up-right-from-square w-6"></i>
-            Check Live Site
+            <span className="text-[12px]">Check Live Site</span>
           </a>
         )}
       </div>

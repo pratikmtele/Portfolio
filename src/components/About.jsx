@@ -17,7 +17,7 @@ function About() {
             <h2 className="text-lg sm:text-xl font-bold mb-2">
               A bit about me
             </h2>
-            <p className="text-md sm:text-lg leading-8 mb-5">
+            <p className="text-md leading-8 mb-5">
               Hi, I'm Pratik Manohar Tele, a passionate and dedicated full-stack
               web developer. I recently completed my Master of Computer
               Applications (MCA) from SPPU, graduating with a CGPA of 7.89.
