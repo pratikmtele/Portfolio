@@ -31,19 +31,19 @@ const Navbar = () => {
           } md:translate-x-0 text-center bg-gray-white md:bg-white md:h-auto md:static md:w-fit md:gap-6 md:flex transition-all ease-in-out duration-500`}
           onClick={onClickHandle}
         >
-          <li className="menu font-semibold text-md hover:text-gray mb-5 sm:mb-0 mt-5 sm:mt-0 relative overflow-hidden">
+          <li className="menu font-semibold text-md mb-5 sm:mb-0 mt-5 sm:mt-0 relative after:contents-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 after:origin-right hover:after:origin-left">
             <a href="#about" className="menu-item">About</a>
           </li>
-          <li className="font-semibold text-md hover:text-gray mb-5 sm:mb-0">
+          <li className="relative font-semibold text-md mb-5 sm:mb-0 after:contents-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 after:origin-right hover:after:origin-left">
             <a href="#projects" className="menu-item">Projects</a>
           </li>
-          <li className="font-semibold text-md hover:text-gray mb-5 sm:mb-0">
+          <li className="relative font-semibold text-md mb-5 sm:mb-0 after:contents-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 after:origin-right hover:after:origin-left">
             <a href="#education" className="menu-item">Education</a>
           </li>
-          <li className="font-semibold text-md hover:text-gray mb-5 sm:mb-0">
+          <li className="relative font-semibold text-md mb-5 sm:mb-0 after:contents-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 after:origin-right hover:after:origin-left">
             <a href="#certification" className="menu-item">Certification</a>
           </li>
-          <li className="font-semibold text-md hover:text-gray mb-5 sm:mb-0">
+          <li className="relative font-semibold text-md mb-5 sm:mb-0 after:contents-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-black after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 after:origin-right hover:after:origin-left">
             <a href="#contact" className="menu-item">Contact</a>
           </li>
         </ul>
