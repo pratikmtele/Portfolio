@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Project } from "./index.js";
-import { FoodApplication } from "../assets/index.js";
+import { FoodApplication, ExtensionImage} from "../assets/index.js";
 
 function Projects() {
   const projects = [
@@ -25,6 +25,21 @@ function Projects() {
         "MongoDB",
       ],
     },
+    {
+      title: "Image Downloader Extension",
+      description:
+        "Developed a Chrome extension that allows users to download images from any website with a single click. You can drag and drop the image on the extension floating area to download it.",
+      coverImage: ExtensionImage,
+      isCodeSourced: true,
+      githubLink: "",
+      isSiteLive: false,
+      siteLink: "",
+      techs: [
+        "HTML",
+        "CSS",
+        "Javascript",
+      ],
+    }
   ];
 
   return (

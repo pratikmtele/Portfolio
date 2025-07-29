@@ -2,7 +2,7 @@ import React from "react";
 
 function Skill({ name, icon }) {
   return (
-    <div className="bg-gray-white rounded-md flex items-center w-[110px] h-[50px] gap-2 md:w-[190px] lg:w-[223px] md:h-[78px] md:gap-5 md:p-3">
+    <div className="bg-gray-white rounded-md flex shadow-md items-center w-[110px] h-[50px] gap-2 md:w-[190px] lg:w-[223px] md:h-[78px] md:gap-5 md:p-3">
       <img
         src={icon}
         alt={name}

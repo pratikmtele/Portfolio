@@ -16,9 +16,10 @@ function Project({
       <img
         src={coverImage}
         alt="Project 1"
-        className="w-full sm:h-[286px] object-cover"
+        className="w-full sm:h-full object-cover"
       />
-      <h1 className="font-bold text-lg ml-5 mt-4">{title}</h1>
+      <div>
+        <h1 className="font-bold text-lg ml-5 mt-4">{title}</h1>
       <div id="links" className="flex">
         {isCodeSourced && (
           <a
@@ -46,11 +47,12 @@ function Project({
         {techs.map((tech) => (
           <div
             key={tech}
-            className="w-fit text-sm flex items-center bg-gray-white p-1"
+            className="w-fit text-sm flex items-center bg-gray-white py-1 rounded-md"
           >
             {tech}
           </div>
         ))}
+      </div>
       </div>
     </div>
   );

@@ -32,6 +32,7 @@ import Image from "./image.png";
 import LoadingImage from "./loading.gif";
 import Menu from "./menu.png";
 import Close from "./close.png";
+import ExtensionImage from "./Image_Downloader_Extension.png";
 
 // exporting project images
 export {
@@ -48,6 +49,7 @@ export {
   Image,
   Menu,
   Close,
+  ExtensionImage,
 };
 
 // exporting array of technologies and tools
