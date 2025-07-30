@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Project } from "./index.js";
-import { FoodApplication, ExtensionImage} from "../assets/index.js";
+import { FoodApplication, ExtensionImage } from "../assets/index.js";
 
 function Projects() {
   const projects = [
@@ -13,40 +13,26 @@ function Projects() {
       githubLink: "https://github.com/pratikmtele/food_ordering",
       isSiteLive: true,
       siteLink: "https://blissbites.netlify.app",
-      techs: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "React",
-        "Bootstrap",
-        "NodeJs",
-        "Express",
-        "Stripe",
-        "MongoDB",
-      ],
+      techs: ["React", "Bootstrap", "NodeJs", "Express", "Stripe", "MongoDB"],
     },
     {
       title: "Image Downloader Extension",
       description:
-        "Developed a Chrome extension that allows users to download images from any website with a single click. You can drag and drop the image on the extension floating area to download it.",
+        "Developed a Chrome extension that simplifies image downloading from any website through an intuitive floating drag-and-drop interface. The extension intelligently processes image URLs by removing tracker parameters such as width, height, and utm_*, and also decodes Base64-encoded image URLs. This ensures users receive the original, high-resolution images without any tracking data or quality loss.",
       coverImage: ExtensionImage,
       isCodeSourced: true,
       githubLink: "",
       isSiteLive: false,
       siteLink: "",
-      techs: [
-        "HTML",
-        "CSS",
-        "Javascript",
-      ],
-    }
+      techs: ["HTML", "CSS", "Javascript"],
+    },
   ];
 
   return (
     <div>
       <Container>
-        <section id="projects" className="mt-14 sm:mt-20">
-          <div className="mb-14 sm:mb-20 flex flex-col items-center">
+        <section id="projects" className="scroll-offset mt-4 md:mt-14">
+          <div className="project-heading mb-14 sm:mb-20 flex flex-col items-center">
             <h1 className="text-mxl inline-block font-bold mb-2 sm:text-2xl">
               Projects
             </h1>
