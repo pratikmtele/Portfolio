@@ -65,7 +65,7 @@ function Contact() {
   };
   return (
     <Container>
-      <section id="contact" className="mt-14 sm:mt-24">
+      <section id="contact" className="scroll-offset mt-14 sm:mt-24">
         <div className="mb-14 sm:mb-32 flex flex-col items-center">
           <h1 className="text-mxl sm:text-2xl inline-block font-bold mb-2">
             Contact

@@ -4,7 +4,7 @@ import { EducationImage, DegreeCap } from "../assets/index.js";
 function Education() {
   return (
     <Container>
-      <section id="education" className="mt-14 sm:mt-20">
+      <section id="education" className="scroll-offset mt-14 sm:mt-20">
         <div className="mb-14 sm:mb-32 flex flex-col items-center">
           <h1 className="text-mxl sm:text-2xl inline-block font-bold mb-2">
             Education

@@ -6,14 +6,14 @@ function About() {
   return (
     <div>
       <Container>
-        <section id="about" className="mt-14 sm:mt-20">
-          <div className="mb-14 sm:mb-20 flex flex-col items-center">
+        <section id="about" className="scroll-offset mt-14 sm:mt-20">
+          <div className="about-heading mb-14 sm:mb-20 flex flex-col items-center">
             <h1 className="text-mxl sm:text-2xl inline-block font-bold mb-2">
               About Me
             </h1>
             <div className="h-[5px] gradient-btn rounded-md w-[79px] sm:w-[88px]"></div>
           </div>
-          <div id="aboutme">
+          <div id="aboutme" className="about-content">
             <h2 className="text-lg sm:text-xl font-bold mb-2">
               A bit about me
             </h2>
@@ -33,7 +33,7 @@ function About() {
             </p>
           </div>
           <div id="skills">
-            <h2 className="text-lg font-bold mb-5 sm:mb-8 sm:text-xl">
+            <h2 className="tools-heading text-lg font-bold mb-5 sm:mb-8 sm:text-xl">
               Technologies and Tools
             </h2>
             <div className="grid grid-cols-3 gap-2 md:grid-cols-5 md:gap-x-1 lg:grid-cols-5 lg:gap-5">

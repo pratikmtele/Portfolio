@@ -6,8 +6,8 @@ import { RightArrow, Image, Resume } from "../assets/index.js";
 function Home() {
   return (
     <Container>
-      <main className="mt-10 md:mt-20 flex flex-col md:flex-row gap-20 md:gap-5 lg:pt-[100px]">
-        <div className="max-h-fit">
+      <main id="home" className="scroll-offset md:mt-10 flex flex-col md:flex-row gap-20 md:gap-5 lg:pt-[150px]">
+        <div className="info-part max-h-fit">
           <h1 className="text-mxl md:text-2xl lg:text-3xl font-bold lg:-ml-1">
             Hii, I am Pratik
           </h1>
@@ -51,7 +51,7 @@ function Home() {
             </a>
           </div>
         </div>
-        <div className="sm:w-[500px]">
+        <div className="image-part sm:w-[500px]">
           <img src={Image} alt="Image" className="sm:relative -top-5 left-16" />
         </div>
       </main>

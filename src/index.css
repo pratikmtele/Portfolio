@@ -11,6 +11,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.scroll-offset {
+  scroll-margin-top: 70px;
+}
+
 .gradient-color {
   background: linear-gradient(to right, #002fff, #ff0099);
   background-clip: text;
@@ -24,6 +28,7 @@ html {
   position: relative;
   display: inline-block;
   transition: transform 0.4s ease-in-out;
+  font-weight: 400;
 }
 
 .menu:hover .menu-item {
