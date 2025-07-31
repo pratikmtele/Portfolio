@@ -90,16 +90,16 @@ function Contact() {
               <h2 className="font-bold text-md">Social</h2>
               <div className="flex items-center gap-4 mt-3">
                 <a href="https://github.com/pratikmtele" target="_blank">
-                  <i class="fa-brands fa-square-github dark:text-white text-black text-md md:text-[32px] hover:rotate-6 hover:scale-105 transition-transform ease-in-out duration-200"></i>
+                  <i className="fa-brands fa-square-github dark:text-white text-black text-[32px] hover:rotate-6 hover:scale-105 transition-transform ease-in-out duration-200"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/pratik-tele/"
                   target="_blank"
                 >
-                  <i class="fa-brands fa-linkedin dark:text-white text-black text-md md:text-[32px] hover:rotate-6 hover:scale-105 transition-transform ease-in-out duration-200"></i>
+                  <i className="fa-brands fa-linkedin dark:text-white text-black text-[32px] hover:rotate-6 hover:scale-105 transition-transform ease-in-out duration-200"></i>
                 </a>
                 <a href="https://www.instagram.com/pratiktele/" target="_blank">
-                  <i class="fa-brands fa-square-instagram dark:text-white text-black text-md md:text-[32px] hover:rotate-6 hover:scale-105 transition-transform ease-in-out duration-200"></i>
+                  <i className="fa-brands fa-square-instagram dark:text-white text-black text-[32px] hover:rotate-6 hover:scale-105 transition-transform ease-in-out duration-200"></i>
                 </a>
               </div>
             </div>
