@@ -8,16 +8,16 @@ function About() {
       <Container>
         <section id="about" className="scroll-offset mt-14 sm:mt-20">
           <div className="about-heading mb-14 sm:mb-20 flex flex-col items-center">
-            <h1 className="text-mxl sm:text-2xl inline-block font-bold mb-2">
+            <h1 className="text-mxl sm:text-2xl inline-block font-bold mb-2 dark:text-white">
               About Me
             </h1>
             <div className="h-[5px] gradient-btn rounded-md w-[79px] sm:w-[88px]"></div>
           </div>
           <div id="aboutme" className="about-content">
-            <h2 className="text-lg sm:text-xl font-bold mb-2">
+            <h2 className="text-lg sm:text-xl font-bold mb-2 dark:text-white">
               A bit about me
             </h2>
-            <p className="text-md leading-8 mb-5">
+            <p className="text-md leading-8 mb-5 dark:text-slate-200">
               Hi, I'm Pratik Manohar Tele, a passionate and dedicated full-stack
               web developer. I recently completed my Master of Computer
               Applications (MCA) from SPPU, graduating with a CGPA of 7.89.
@@ -33,10 +33,10 @@ function About() {
             </p>
           </div>
           <div id="skills">
-            <h2 className="tools-heading text-lg font-bold mb-5 sm:mb-8 sm:text-xl">
+            <h2 className="tools-heading text-lg font-bold mb-5 sm:mb-8 sm:text-xl dark:text-white">
               Technologies and Tools
             </h2>
-            <div className="grid grid-cols-3 gap-2 md:grid-cols-5 md:gap-x-1 lg:grid-cols-5 lg:gap-5">
+            <div className="grid grid-cols-3 gap-2 pb-2 md:grid-cols-5 md:gap-x-1 lg:grid-cols-5 lg:gap-5">
               {Skills.map((skill) => (
                 <Skill key={skill.name} name={skill.name} icon={skill.value} />
               ))}

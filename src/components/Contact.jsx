@@ -27,8 +27,6 @@ function Contact() {
     }));
   };
 
-  const validateData = () => {};
-
   const onClick = async (e) => {
     setLoading(true);
     e.preventDefault();
@@ -67,16 +65,16 @@ function Contact() {
     <Container>
       <section id="contact" className="scroll-offset mt-14 sm:mt-24">
         <div className="contact-heading mb-14 sm:mb-32 flex flex-col items-center">
-          <h1 className="text-mxl sm:text-2xl inline-block font-bold mb-2">
+          <h1 className="text-mxl sm:text-2xl inline-block font-bold mb-2 dark:text-white text-black">
             Contact
           </h1>
           <div className="h-[5px] gradient-btn w-[73px] sm:w-[88px] rounded-md"></div>
         </div>
         <div className="contact-content w-full sm:flex justify-between">
-          <div className="sm:w-1/2">
+          <div className="sm:w-1/2 dark:text-white text-black">
             <div className="flex items-center gap-5">
-              <img src={MailImage} className="w-[50px] sm:w-[60px]" />
-              <h1 className="font-bold text-lg sm:text-xl">Contact with me</h1>
+              <i class="fa-regular fa-envelope dark:text-white text-black text-md md:text-2xl"></i>
+              <h1 className="font-bold text-lg sm:text-xl dark:text-white text-black">Contact with me</h1>
             </div>
             <div className="mt-8">
               <h2 className="font-bold text-md">Email</h2>
@@ -90,18 +88,18 @@ function Contact() {
             </div>
             <div className="mt-4">
               <h2 className="font-bold text-md">Social</h2>
-              <div className="flex gap-4 mt-3">
+              <div className="flex items-center gap-4 mt-3">
                 <a href="https://github.com/pratikmtele" target="_blank">
-                  <img src={GitHubSign} className=" inline-block" />
+                  <i class="fa-brands fa-square-github dark:text-white text-black text-md md:text-[32px] hover:rotate-6 hover:scale-105 transition-transform ease-in-out duration-200"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/pratik-tele/"
                   target="_blank"
                 >
-                  <img src={Linkedin} className=" inline-block" />
+                  <i class="fa-brands fa-linkedin dark:text-white text-black text-md md:text-[32px] hover:rotate-6 hover:scale-105 transition-transform ease-in-out duration-200"></i>
                 </a>
                 <a href="https://www.instagram.com/pratiktele/" target="_blank">
-                  <img src={Instagram} className=" inline-block" />
+                  <i class="fa-brands fa-square-instagram dark:text-white text-black text-md md:text-[32px] hover:rotate-6 hover:scale-105 transition-transform ease-in-out duration-200"></i>
                 </a>
               </div>
             </div>
@@ -163,8 +161,8 @@ function Contact() {
             {
               <div
                 className={`w-full h-[50px] rounded-md mt-4 ${
-                  success ? "bg-green-400" : "bg-white"
-                } content-center text-center text-white font-bold text-md`}
+                  success ? "bg-green-400" : "bg-white dark:bg-black"
+                } content-center text-center text-white dark:text-black font-bold text-md`}
               >
                 Message Sent
               </div>

@@ -33,7 +33,7 @@ function Projects() {
       <Container>
         <section id="projects" className="scroll-offset mt-4 md:mt-14">
           <div className="project-heading mb-14 sm:mb-20 flex flex-col items-center">
-            <h1 className="text-mxl inline-block font-bold mb-2 sm:text-2xl">
+            <h1 className="text-mxl inline-block font-bold mb-2 sm:text-2xl dark:text-white text-black">
               Projects
             </h1>
             <div className="h-[5px] gradient-btn w-[73px] sm:w-[88px] rounded-md"></div>

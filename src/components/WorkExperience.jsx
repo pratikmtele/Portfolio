@@ -2,16 +2,16 @@ const WorkExperience = () => {
   return (
     <section
       id="experience"
-      className="work-section scroll-offset pt-12 px-2 md:px-12 bg-white"
+      className="work-section scroll-offset pt-12 px-2 md:px-12 bg-white dark:bg-black"
     >
       <div className="work-heading mb-14 sm:mb-20 flex flex-col items-center">
-        <h2 className="text-mxl inline-block font-bold mb-2 sm:text-2xl md:mt-7">
+        <h2 className="text-mxl inline-block font-bold mb-2 sm:text-2xl md:mt-7 dark:text-white">
           Work Experience
         </h2>
         <div className="h-[5px] gradient-btn w-[73px] sm:w-[208px] rounded-md"></div>
       </div>
       <div className="work-content flex justify-center">
-        <div className="w-full max-w-2xl bg-white rounded-xl shadow-lg p-4 md:p-8 mb-10 border border-[#e3e3e3] transition-shadow duration-300">
+        <div className="w-full max-w-2xl bg-white dark:bg-white/10 rounded-xl shadow-lg p-4 md:p-8 mb-10 border border-[#e3e3e3] dark:border-none transition-shadow duration-300">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
             <div className="flex items-center gap-4">
               <span className="inline-flex items-center justify-center w-12 h-12 rounded-full gradient-btn text-white shadow">
@@ -31,10 +31,10 @@ const WorkExperience = () => {
                 </svg>
               </span>
               <div>
-                <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-1 tracking-tight">
+                <h3 className="text-lg md:text-xl font-bold text-gray-900 dark:text-white mb-1 tracking-tight">
                   Full Stack Developer
                 </h3>
-                <span className="text-sm text-gray-500 font-medium">
+                <span className="text-sm text-gray-500 dark:text-slate-200 font-medium">
                   @ Serverwala Cloud Data Center, Mumbai
                 </span>
               </div>
@@ -43,7 +43,7 @@ const WorkExperience = () => {
               Feb 2025 – Present
             </span>
           </div>
-          <ul className="space-y-4 text-gray-700 mt-4 pl-2">
+          <ul className="space-y-4 text-gray-700 mt-4 pl-2 dark:text-slate-200">
             <li className="flex items-start gap-2">
               <span className="mt-1.5 w-3 h-3 rounded-full bg-[#5a1edb] flex-shrink-0"></span>
               <span>
