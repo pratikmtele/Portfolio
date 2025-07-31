@@ -43,7 +43,7 @@ function App() {
       ".project-heading",
       ".education-heading",
       ".contact-heading"
-    ], { opacity: 0, x: 200 });
+    ], { opacity: 0, x: -200 });
     gsap.set([
       ".about-content",
       ".skill-card",
