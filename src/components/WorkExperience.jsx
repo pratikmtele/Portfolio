@@ -5,7 +5,7 @@ const WorkExperience = () => {
       className="work-section scroll-offset pt-12 px-2 md:px-12 bg-white"
     >
       <div className="work-heading mb-14 sm:mb-20 flex flex-col items-center">
-        <h2 className="text-mxl inline-block font-bold mb-2 sm:text-2xl">
+        <h2 className="text-mxl inline-block font-bold mb-2 sm:text-2xl md:mt-7">
           Work Experience
         </h2>
         <div className="h-[5px] gradient-btn w-[73px] sm:w-[208px] rounded-md"></div>
