@@ -66,13 +66,13 @@ function Contact() {
   return (
     <Container>
       <section id="contact" className="scroll-offset mt-14 sm:mt-24">
-        <div className="mb-14 sm:mb-32 flex flex-col items-center">
+        <div className="contact-heading mb-14 sm:mb-32 flex flex-col items-center">
           <h1 className="text-mxl sm:text-2xl inline-block font-bold mb-2">
             Contact
           </h1>
           <div className="h-[5px] gradient-btn w-[73px] sm:w-[88px] rounded-md"></div>
         </div>
-        <div className="w-full sm:flex justify-between">
+        <div className="contact-content w-full sm:flex justify-between">
           <div className="sm:w-1/2">
             <div className="flex items-center gap-5">
               <img src={MailImage} className="w-[50px] sm:w-[60px]" />

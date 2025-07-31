@@ -8,21 +8,24 @@ function Footer() {
         <p className="text-sm font-light text-center">
           Copyright © 2024 by Pratik Tele
         </p>
-        <ul className="gap-6 hidden sm:flex">
-          <li className=" font-semibold text-md hover:text-gray">
-            <a href="#about">About</a>
+        <ul className="hidden sm:flex">
+          <li className="relative menu font-semibold text-md hover:bg-slate-400/15 py-1 px-4 rounded-md overflow-hidden">
+            <a href="#home" className="menu-item" data-text="Home">Home</a>
           </li>
-          <li className=" font-semibold text-md hover:text-gray">
-            <a href="#projects">Projects</a>
+          <li className="relative menu font-semibold text-md hover:bg-slate-400/15 py-1 px-4 rounded-md overflow-hidden">
+            <a href="#about" className="menu-item" data-text="About">About</a>
           </li>
-          <li className=" font-semibold text-md hover:text-gray">
-            <a href="#education">Education</a>
+          <li className="relative menu font-semibold text-md hover:bg-slate-400/15 py-1 px-4 rounded-md overflow-hidden">
+            <a href="#education" className="menu-item" data-text="Education">Education</a>
           </li>
-          <li className=" font-semibold text-md hover:text-gray">
-            <a href="#certification">Certification</a>
+          <li className="relative menu font-semibold text-md hover:bg-slate-400/15 py-1 px-4 rounded-md overflow-hidden">
+            <a href="#projects" className="menu-item" data-text="Projects">Projects</a>
           </li>
-          <li className=" font-semibold text-md hover:text-gray">
-            <a href="#contact">Contact</a>
+          <li className="relative menu font-semibold text-md hover:bg-slate-400/15 py-1 px-4 rounded-md overflow-hidden">
+            <a href="#education" className="menu-item" data-text="Education">Education</a>
+          </li>
+          <li className="relative menu font-semibold text-md hover:bg-slate-400/15 py-1 px-4 rounded-md overflow-hidden">
+            <a href="#contact" className="menu-item" data-text="Contact">Contact</a>
           </li>
         </ul>
       </footer>

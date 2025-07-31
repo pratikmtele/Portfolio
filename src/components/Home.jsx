@@ -1,4 +1,3 @@
-import React from "react";
 import { Container } from "./index.js";
 import { Typewriter } from "react-simple-typewriter";
 import { RightArrow, Image, Resume } from "../assets/index.js";
@@ -8,7 +7,7 @@ function Home() {
     <Container>
       <main
         id="home"
-        className="scroll-offset md:mt-10 flex flex-col md:flex-row gap-20 md:gap-5 lg:pt-[150px]"
+        className="scroll-offset md:mt-10 flex flex-col md:flex-row gap-20 md:gap-5 md:pt-[150px] lg:pt-[200px]"
       >
         <div className="info-part max-h-fit pt-5 md:pt-0">
           <h1 className="text-mxl md:text-2xl lg:text-3xl font-bold lg:-ml-1">

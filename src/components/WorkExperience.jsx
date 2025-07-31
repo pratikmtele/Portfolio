@@ -2,15 +2,15 @@ const WorkExperience = () => {
   return (
     <section
       id="experience"
-      className="scroll-offset pt-12 px-2 md:px-12 bg-white"
+      className="work-section scroll-offset pt-12 px-2 md:px-12 bg-white"
     >
-      <div className="mb-14 sm:mb-20 flex flex-col items-center">
+      <div className="work-heading mb-14 sm:mb-20 flex flex-col items-center">
         <h2 className="text-mxl inline-block font-bold mb-2 sm:text-2xl">
           Work Experience
         </h2>
         <div className="h-[5px] gradient-btn w-[73px] sm:w-[208px] rounded-md"></div>
       </div>
-      <div className="flex justify-center">
+      <div className="work-content flex justify-center">
         <div className="w-full max-w-2xl bg-white rounded-xl shadow-lg p-4 md:p-8 mb-10 border border-[#e3e3e3] transition-shadow duration-300">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
             <div className="flex items-center gap-4">

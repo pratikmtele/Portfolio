@@ -5,13 +5,13 @@ function Education() {
   return (
     <Container>
       <section id="education" className="scroll-offset mt-14 sm:mt-20">
-        <div className="mb-14 sm:mb-32 flex flex-col items-center">
+        <div className="education-heading mb-14 sm:mb-32 flex flex-col items-center">
           <h1 className="text-mxl sm:text-2xl inline-block font-bold mb-2">
             Education
           </h1>
           <div className="h-[5px] gradient-btn w-[73px] sm:w-[88px] rounded-md"></div>
         </div>
-        <div className="flex flex-col-reverse sm:flex-row sm:justify-between drop-shadow-md ">
+        <div className="education-content flex flex-col-reverse sm:flex-row sm:justify-between drop-shadow-md ">
           <div className="mt-7 sm:mt-0 sm:w-[550px] sm:h-[420px] sm:relative">
             <img
               src={EducationImage}
