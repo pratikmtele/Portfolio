@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div
       className={`w-full shadow-md dark:shadow-sm dark:shadow-white md:backdrop-blur-sm mt-0 lg:fixed lg:top-0 transition-colors duration-300 z-50 ${
-        isScrolled ? "bg-white/80 dark:md:bg-black/50" : "bg-white dark:bg-black"
+        isScrolled ? "md:bg-white/80 dark:md:bg-black/50" : "bg-white dark:bg-black"
       }`}
     >
       <header
@@ -42,12 +42,7 @@ const Navbar = () => {
             </span>
           </a>
         </h1>
-       {isNavbarOpen? <img
-          src={Close}
-          alt="Menu"
-          className="w-6 block  md:hidden cursor-pointer"
-          onClick={onClickHandle}
-        /> : <i class="fa-solid fa-bars dark:text-white text-black text-xl md:hidden" onClick={onClickHandle}></i>}
+       <i class={ `${isNavbarOpen ? "fa-solid fa-xmark"  : "fa-solid fa-bars"} dark:text-white text-black text-xl md:hidden`} onClick={onClickHandle}></i>
         <ul
           className={`block absolute min-h-screen z-30 top-20 left-0 w-full bg-white dark:bg-black dark:md:bg-transparent md:bg-transparent ${
             isNavbarOpen ? "translate-x-0" : "-translate-x-[1000px]"
