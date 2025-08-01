@@ -104,7 +104,7 @@ function Contact() {
               </div>
             </div>
           </div>
-          {/* Contact form here*/}
+          
           <div className="mt-10 sm:mt-0 sm:w-[588px]">
             <form onSubmit={onClick}>
               <div className="sm:flex sm:gap-5">

@@ -25,7 +25,7 @@ function Education() {
                 Dec 2022 – April 2024
               </h2>
               <div className="text-left flex items-center gap-4 text-md mt-5 dark:text-white">
-                <i class="fa-solid fa-graduation-cap md:text-lg dark:text-white text-black"></i>
+                <i class="fa-solid fa-graduation-cap text-lg dark:text-white text-black"></i>
                 <div>
                   <h1 className="font-bold">Master of Computer Application</h1>
                   <p className="text-sm md:text-md">
@@ -39,7 +39,7 @@ function Education() {
                 Sep 2019 – Aug 2022
               </h2>
               <div className="text-left flex items-center gap-4 text-md mt-5 dark:text-white">
-                <i class="fa-solid fa-graduation-cap md:text-lg dark:text-white text-black"></i>
+                <i class="fa-solid fa-graduation-cap text-lg dark:text-white text-black"></i>
                 <div>
                   <h1 className="font-bold mb-1">
                     Bachelor of Computer Application
