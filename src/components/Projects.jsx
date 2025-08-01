@@ -21,7 +21,7 @@ function Projects() {
         "Developed a Chrome extension that simplifies image downloading from any website through an intuitive floating drag-and-drop interface. The extension intelligently processes image URLs by removing tracker parameters such as width, height, and utm_*, and also decodes Base64-encoded image URLs. This ensures users receive the original, high-resolution images without any tracking data or quality loss.",
       coverImage: ExtensionImage,
       isCodeSourced: true,
-      githubLink: "",
+      githubLink: "https://github.com/pratikmtele/Image-Downloader-Extension.git",
       isSiteLive: false,
       siteLink: "",
       techs: ["HTML", "CSS", "Javascript"],
