@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import { Container, Input, TextArea } from "./index.js";
 import {
-  MailImage,
-  Instagram,
-  Linkedin,
-  GitHubSign,
   LoadingImage,
 } from "../assets/index.js";
 
@@ -73,7 +69,7 @@ function Contact() {
         <div className="contact-content w-full sm:flex justify-between">
           <div className="sm:w-1/2 dark:text-white text-black">
             <div className="flex items-center gap-5">
-              <i class="fa-regular fa-envelope dark:text-white text-black text-md md:text-2xl"></i>
+              <i class="fa-regular fa-envelope dark:text-white text-black text-xl md:text-2xl"></i>
               <h1 className="font-bold text-lg sm:text-xl dark:text-white text-black">Contact with me</h1>
             </div>
             <div className="mt-8">

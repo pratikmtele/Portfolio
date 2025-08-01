@@ -21,34 +21,16 @@ import Appwrite from "./appwrite.svg";
 // images
 import FoodApplication from "./foodorderingapp.png";
 import EducationImage from "./Studying-image.svg";
-import DegreeCap from "./degreecap.png";
-import MongoCert from "./mongoCert.png";
-import RightArrow from "./right-arrow.png";
-import MailImage from "./mail.png";
-import Instagram from "./instagram.png";
-import GitHubSign from "./github-sign.png";
-import Linkedin from "./linkedin.png";
 import Image from "./image.png";
 import LoadingImage from "./loading.gif";
-import Menu from "./menu.png";
-import Close from "./close.png";
 import ExtensionImage from "./Image_Downloader_Extension.png";
 
 // exporting project images
 export {
   FoodApplication,
   EducationImage,
-  DegreeCap,
-  MongoCert,
-  RightArrow,
-  MailImage,
-  Instagram,
-  GitHubSign,
-  Linkedin,
   LoadingImage,
   Image,
-  Menu,
-  Close,
   ExtensionImage,
 };
 

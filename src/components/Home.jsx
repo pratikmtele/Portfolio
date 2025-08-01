@@ -1,6 +1,6 @@
 import { Container } from "./index.js";
 import { Typewriter } from "react-simple-typewriter";
-import { RightArrow, Image, Resume } from "../assets/index.js";
+import { Image, Resume } from "../assets/index.js";
 
 function Home() {
   return (

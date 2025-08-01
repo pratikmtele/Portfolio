@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Menu, Close } from "../assets/index.js";
 
 const Navbar = () => {
   const [isNavbarOpen, setIsNavbarOpened] = useState(false);
@@ -23,7 +22,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-full shadow-md dark:shadow-sm dark:shadow-white md:backdrop-blur-sm mt-0 lg:fixed lg:top-0 transition-colors duration-300 z-50 ${
+      className={`w-full shadow-md dark:shadow-sm bg-white dark:bg-black dark:shadow-white md:backdrop-blur-sm mt-0 lg:fixed lg:top-0 transition-colors duration-300 z-50 ${
         isScrolled ? "md:bg-white/80 dark:md:bg-black/50" : "bg-white dark:bg-black"
       }`}
     >
@@ -44,7 +43,7 @@ const Navbar = () => {
         </h1>
        <i class={ `${isNavbarOpen ? "fa-solid fa-xmark"  : "fa-solid fa-bars"} dark:text-white text-black text-xl md:hidden`} onClick={onClickHandle}></i>
         <ul
-          className={`block absolute min-h-screen z-30 top-20 left-0 w-full bg-white dark:bg-black dark:md:bg-transparent md:bg-transparent ${
+          className={`block absolute h-full z-30 top-20 left-0 w-full bg-white dark:bg-black dark:md:bg-transparent md:bg-transparent ${
             isNavbarOpen ? "translate-x-0" : "-translate-x-[1000px]"
           } md:translate-x-0 text-center md:h-auto md:static md:w-fit md:flex transition-all ease-in-out duration-500 `}
           onClick={onClickHandle}

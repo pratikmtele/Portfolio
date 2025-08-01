@@ -1,5 +1,5 @@
 import { Container } from "./index.js";
-import { EducationImage, DegreeCap } from "../assets/index.js";
+import { EducationImage} from "../assets/index.js";
 
 function Education() {
   return (
