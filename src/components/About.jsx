@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Skill } from "./index.js";
 import { Skills } from "../assets/index.js";
 

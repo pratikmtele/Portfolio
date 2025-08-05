@@ -14,8 +14,8 @@ import WorkExperience from "./components/WorkExperience.jsx";
 import Lenis from 'lenis'
 import { useEffect, useState } from "react";
 
-function DarkModeBtn() {
-  const [isDarkMode, setIsDarkMode] = useState(localStorage.getItem("darkMode") === "true");
+function DarkModeBtn({isDarkMode, setIsDarkMode}) {
+  
 
   useEffect(() => {
     if (isDarkMode) {
@@ -40,6 +40,7 @@ function DarkModeBtn() {
 }
 
 function App() {
+  const [isDarkMode, setIsDarkMode] = useState(localStorage.getItem("darkMode") === "true");
   gsap.registerPlugin(useGSAP, ScrollTrigger);
 
   const lenis = new Lenis();
@@ -168,9 +169,9 @@ function App() {
 
   return (
     <>
-      <DarkModeBtn />
+      <DarkModeBtn isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
       <Navbar />
-      <Home />
+      <Home isDarkMode={isDarkMode}/>
       <About />
       <WorkExperience />
       <Projects />

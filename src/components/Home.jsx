@@ -2,7 +2,7 @@ import { Container } from "./index.js";
 import { Typewriter } from "react-simple-typewriter";
 import { Image, Resume } from "../assets/index.js";
 
-function Home() {
+function Home({isDarkMode}) {
   return (
     <Container>
       <main
@@ -33,7 +33,7 @@ function Home() {
             <div className="gradient-btn lg:w-[223px] lg:h-[67px] rounded-md">
               <a
                 href="#contact"
-                className="bg-black dark:bg-white/50 dark:text-black flex items-center justify-center text-white font-semibold text-md w-[140px] h-[49px] md:w-[200px] md:h-[67px] md:text-lg lg:w-[223px] lg:h-[67px] -translate-x-3 -translate-y-3 rounded-md hover:-translate-x-0 hover:-translate-y-0 transition ease-in-out duration-300"
+                className="bg-[#000000]/50 backdrop-blur-sm dark:bg-white/50 dark:text-black flex items-center justify-center text-white font-semibold text-md w-[140px] h-[49px] md:w-[200px] md:h-[67px] md:text-lg lg:w-[223px] lg:h-[67px] -translate-x-3 -translate-y-3 rounded-md hover:-translate-x-0 hover:-translate-y-0 transition ease-in-out duration-300"
               >
                 Get in touch
               </a>
@@ -75,7 +75,7 @@ function Home() {
                       <g
                         id="ui-gambling-website-lined-icnos-casinoshunter"
                         transform="translate(-212.000000, -159.000000)"
-                        fill="#fff"
+                        fill={isDarkMode ? "#ffffff" : "#000000"}
                         fill-rule="nonzero"
                       >
                         {" "}
