@@ -24,7 +24,7 @@ function Project({
               target="_blank"
               className="flex items-center px-2 max-w-36 h-[25px] mt-4 ml-5 border border-light-gray text-sm cursor-pointer rounded-md"
             >
-              <i class="fa-brands fa-github w-6 dark:text-white"></i>
+              <i className="fa-brands fa-github w-6 dark:text-white"></i>
               <span className="text-[12px] dark:text-white">Code Source</span>
             </a>
           )}
@@ -34,7 +34,7 @@ function Project({
               target="_blank"
               className="flex items-center px-2 max-w-36 h-[25px] mt-4 ml-5 border border-light-gray text-sm cursor-pointer rounded-md"
             >
-              <i class="fa-solid fa-arrow-up-right-from-square w-6 dark:text-white"></i>
+              <i className="fa-solid fa-arrow-up-right-from-square w-6 dark:text-white"></i>
               <span className="text-[12px] dark:text-white">Check Live Site</span>
             </a>
           )}

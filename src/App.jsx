@@ -12,6 +12,32 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import WorkExperience from "./components/WorkExperience.jsx";
 import Lenis from 'lenis'
+import { useEffect, useState } from "react";
+
+function DarkModeBtn() {
+  const [isDarkMode, setIsDarkMode] = useState(localStorage.getItem("darkMode") === "true");
+
+  useEffect(() => {
+    if (isDarkMode) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }, [isDarkMode]);
+
+  const toggleDarkMode = () => {
+    const newDarkMode = !isDarkMode;
+    localStorage.setItem("darkMode", newDarkMode);
+    setIsDarkMode(newDarkMode);
+    document.body.classList.toggle("dark");
+  }
+
+  return (
+    <button className="dark-mode-btn w-10 h-10 fixed bottom-4 right-4 bg-black dark:bg-slate-500 z-90 text-white rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300" onClick={toggleDarkMode}>
+      {isDarkMode ? <i className="fa-regular fa-sun fa-xl"></i> : <i className="fa-regular fa-moon fa-xl"></i>}
+    </button>
+  );
+}
 
 function App() {
   gsap.registerPlugin(useGSAP, ScrollTrigger);
@@ -142,6 +168,7 @@ function App() {
 
   return (
     <>
+      <DarkModeBtn />
       <Navbar />
       <Home />
       <About />
